@@ -20,8 +20,10 @@ export default async function Home({ searchParams }) {
   return (
     <main className={styles.grid}>
       {posts.map(post =>  <CardPost key={post.id} post={post} />)}
-      {prev && <Link href={`/?page=${prev}`}>Página anterior</Link>}
-      {next && <Link href={`/?page=${next}`}>Próxima página</Link>}
+      <div className={styles.links}>
+        {prev && <Link href={`/?page=${prev}`}>Página anterior</Link>}
+        {next && <Link href={`/?page=${next}`}>Próxima página</Link>}
+      </div>
     </main>
   )
 }
