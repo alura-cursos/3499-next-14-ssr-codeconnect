@@ -12,6 +12,7 @@
 
 .header figure {
     margin: 0;
+    position: relative;
 }
 
 .body {
