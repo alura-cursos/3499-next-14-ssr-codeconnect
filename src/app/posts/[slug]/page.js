@@ -1,3 +1,5 @@
+import logger from "@/logger"
+
 async function getPostBySlug (slug) {
     const url  = `http://localhost:3042/posts?slug=${slug}`
     const response = await fetch(url)
@@ -14,9 +16,9 @@ async function getPostBySlug (slug) {
     return data[0];
 } 
 
-const PagePost = () => {
-    const post = getPostBySlug(???)
-    return <h1>Olá posts</h1>
+const PagePost = async ({ params }) => {
+    const post = await getPostBySlug(params.slug)
+    return <h1 style={{ color: 'white' }}>{post.title}</h1>
 }
 
 export default PagePost
