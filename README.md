@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![](thumbnail.png)
 
-## Getting Started
+![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
 
-First, run the development server:
+# Título do Curso: Next.js: estratégias de componentes Server-Side
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Curso prático de Next.js focado em Server-Side Rendering (SSR) e desenvolvimento de aplicativos web modernos.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔨 Funcionalidades do Projeto
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+O curso abrange o desenvolvimento de um blog dinâmico com funcionalidades como:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Listagem de posts com paginação.
+- Exibição detalhada de cada post.
+- Renderização do lado do servidor.
+- Roteamento com App Router.
+- Integração com APIs usando fetch
 
-## Learn More
+## ✔️ Técnicas e Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+As principais técnicas e tecnologias abordadas são:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `Next.js`: Framework para React com recursos de SSR.
+- `Fetch API`: Realizar requisições HTTP para buscar dados.
+- `remark`: Biblioteca para processamento de Markdown em HTML.
+- `winston`: Logging avançado com diferentes níveis e transportes.
+- `React Components`: Desenvolvimento de componentes reutilizáveis.
+- `CSS Modules`: Estilização modular e escopada.
+- `Client-Side Navigation`: Navegação eficiente entre páginas com Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🎯 Desafios do Curso
 
-## Deploy on Vercel
+Implementação de funcionalidades avançadas, como:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Consumo de uma API de posts.
+- Renderização de Markdown em componentes React.
+- Gerenciamento de logs e erros.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🛠️ Abrir e Rodar o Projeto
+
+Após baixar o projeto, você pode abrir com seu editor de código preferido. Siga estes passos:
+
+- Abra o terminal no diretório do projeto.
+- Execute `npm install` para instalar as dependências.
+- Inicie o servidor de desenvolvimento com `npm run dev`.
+- Acesse `http://localhost:3000` no navegador para ver o projeto.
+
+## 📚 Mais Informações do Curso
+
+Interessado em aprofundar seus conhecimentos em Next.js e SSR? [Acesse o curso]() que desenvolve este projeto desde o início!
